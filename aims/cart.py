@@ -36,3 +36,6 @@ class Cart:
             print(f"{idx}. {item}")
         print(f"Total cost: {self.total_cost():.2f} $")
         print("***************************************************")
+
+    def total_cost_with_discount(self, percent):
+        return self.total_cost() * percent / 100
