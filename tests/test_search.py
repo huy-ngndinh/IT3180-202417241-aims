@@ -14,6 +14,14 @@ class TestSearch(unittest.TestCase):
         self.assertEqual(len(results), 1)
         self.assertEqual(results[0].title, "Star Wars")
 
+    def test_search_by_title_case_insensitive(self):
+        items = [
+            DigitalVideoDisc("The Lion King", cost=19.95),
+        ]
+        results = search_by_title(items, "lion")
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0].title, "The Lion King")
+
     def test_search_by_title_not_found(self):
         items = [
             DigitalVideoDisc("The Lion King", cost=19.95),
