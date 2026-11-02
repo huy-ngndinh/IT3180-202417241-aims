@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Cart.sort_by_cost()`: Sắp xếp các đĩa trong giỏ hàng theo giá tiền tăng dần.
 - Bổ sung unit tests cho tìm kiếm theo thể loại và sắp xếp giỏ hàng.
 
+## [1.0.1] - 2026-11-02
+### Fixed
+- Sửa lỗi tìm kiếm search_by_title không phân biệt chữ hoa, chữ thường (case-insensitive) (#17).
+
 ## [1.0.0] - 2026-11-02
 ### Added
 - `Cart.print_cart()`: In danh sách chi tiết các đĩa và tổng chi phí trong giỏ hàng.
