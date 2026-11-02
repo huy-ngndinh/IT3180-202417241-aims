@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- search_by_category(): Tìm kiếm đĩa theo danh mục thể loại.
+### Added
 - Cart.sort_by_title(): Sắp xếp đĩa theo thứ tự bảng chữ cái tiêu đề.
 - Cart.sort_by_cost(): Sắp xếp đĩa theo giá tiền tăng dần.
 - Bổ sung unit test kiểm thử tính năng sắp xếp giỏ hàng.
