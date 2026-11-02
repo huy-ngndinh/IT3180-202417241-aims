@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-02
+### Fixed
+- Sửa lỗi `search_by_title` không phân biệt hoa thường (case-insensitive) (#17).
+
 ## [1.0.0] - 2026-11-02
 ### Added
 - `Cart.print_cart()`: In danh sách chi tiết các đĩa và tổng chi phí trong giỏ hàng.
