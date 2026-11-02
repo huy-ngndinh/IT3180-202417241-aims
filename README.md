@@ -4,3 +4,4 @@
 
 - Sinh viên: Nguyễn Huy – MSSV 202417241
 - Chạy chương trình: `python main.py`
+- Yêu cầu môi trường: Python >= 3.10
